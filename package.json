@@ -21,14 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.{js,jsx,tsx,ts}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet --fix"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\"",
+    "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --quiet --fix"
   },
   "browserslist": {
     "production": [
@@ -45,6 +39,8 @@
   "devDependencies": {
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.3.3"
+    "eslint-plugin-react": "^7.35.0",
+    "prettier": "^3.3.3",
+    "sass": "^1.77.8"
   }
 }
